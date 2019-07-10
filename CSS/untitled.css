@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "TT Norms";
+    src: url(/Users/taliko/Desktop/EcoMilk/Fonts/);
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "TT Norms", sans-serif;
+	color: #082E48;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 280px;
+	height: 100%;
+	margin: auto;
+}
+
+header {
+	background-color: #ffffff;
+	height: 70px;
+	box-shadow: 0px 4px 8px #b5b5b5;
+}
+
+header .content {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	width: 90px;
+	height: 18px;
+}
+
+.menu {
+	width: 30px;
+	height: 30px;
+}
+
+.cta {
+	background-image: url(/Users/taliko/Desktop/EcoMilk/images/milk-320px.jpg);
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	padding-top: 119px;
+	padding-bottom: 119px;
+}
+
+.title {
+	font-size: 2.8rem;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.cta-text {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 130%;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.button {
+	display: flex;
+	text-decoration: none;
+	font-size: 1.4rem;
+	background-color: #01BC68;
+	color: #F3F3F5;
+	border-radius: 50px;
+	width: 280px;
+	height: 35px;
+	justify-content: center;
+	align-items: center;
+}
+
+.products {
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 2.6rem;
+	font-weight: 500;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.products-item {
+	width: 130px;
+	margin-bottom: 20px;
+}
+
+.products-item:nth-child(even) {
+	margin-right: 20px;
+}
+
+.product-photo {
+	width: 130px;
+	height: 130px;
+	overflow: hidden;
+}
+
+.product-photo img {
+	width: 100%;
+	height: auto;
+}
+
+.product-name {
+	font-size: 1.5rem;
+	line-height: 130%;
+	font-weight: 500;
+	margin-top: 7px;
+}
+
+.product-name-details {
+	font-weight: 400;
+}
+
+.product-price {
+	font-size: 1.5rem;
+	line-height: 130%;
+	font-weight: 500;
+	margin-top: 2px;
+}
+
+.products .button {
+	width: 210px;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.facts {
+	margin-bottom: 50px;
+}
+
+.fact-photo {
+	width: 280px;
+	height: 280px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.fact-photo img {
+	width: 100%;
+	height: auto;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+.fact-heading {
+	margin-bottom: 7px;
+}
+
+.fact-text {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 135%;
+	margin-bottom: 20px;
+}
+
+.gmo, .ecology {
+	display: none;
+}
+
+.slider {
+	display: flex;
+	justify-content: space-between;
+	width: 32px;
+	margin: auto;
+}
+
+.slider-item.active {
+	width: 6px;
+	height: 6px;
+	background-color: #082E48;
+	border-radius: 100%;
+}
+
+.slider-item {
+	width: 6px;
+	height: 6px;
+	background-color: #A9B6C3;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
