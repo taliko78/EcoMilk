@@ -22,13 +22,13 @@ html {
 	margin: auto;
 }
 
-header {
+.header {
 	background-color: #ffffff;
 	height: 70px;
 	box-shadow: 0px 4px 8px #b5b5b5;
 }
 
-header .content {
+.header .content {
 	justify-content: space-between;
 	align-items: center;
 }
@@ -199,4 +199,397 @@ h3 {
 	height: 6px;
 	background-color: #A9B6C3;
 	border-radius: 100%;
+}
+
+.advantages {
+	margin-bottom: 12px;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.advantages-item {
+	width: 130px;
+	margin-bottom: 38px;
+}
+
+.advantages-item:nth-child(even) {
+	margin-right: 20px;
+}
+
+.exclusive::before {
+	content: "";
+	display: flex;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 45px;
+	height: 45px;
+	background-image: url(/EcoMilk/images/icons/milk-products.svg);
+}
+
+.priority::before {
+	content: "";
+	display: flex;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 45px;
+	height: 45px;
+	background-image: url(/EcoMilk/images/icons/fast-delivery.svg);
+}
+
+.bonuses::before {
+	content: "";
+	display: flex;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 45px;
+	height: 45px;
+	background-image: url(/EcoMilk/images/icons/discount.svg);
+}
+
+.benefit::before {
+	content: "";
+	display: flex;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 45px;
+	height: 45px;
+	background-image: url(/EcoMilk/images/icons/bill.svg);
+}
+
+.gifts::before {
+	content: "";
+	display: flex;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-left: 36px;
+	width: 45px;
+	height: 45px;
+	background-image: url(/EcoMilk/images/icons/gift.svg);
+}
+
+.easy-payment::before {
+	content: "";
+	display: flex;
+	margin: auto;
+	margin-bottom: 10px;
+	width: 45px;
+	height: 45px;
+	background-image: url(/EcoMilk/images/icons/wallet.svg);
+}
+
+.delivery-pay {
+	margin-bottom: 15px;
+}
+
+.delivery-pay-item {
+	height: 340px;
+	width: 280px;
+	background-color: #F9F9F9;
+	border-radius: 7px;
+	margin-bottom: 25px;
+	padding-top: 35px;
+}
+
+.delivery-pay-heading {
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.delivery-pay-text {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 135%;
+	text-align: center;
+	margin: auto;
+	width: 237px;
+}
+
+.order + .delivery-pay-text {
+	width: 237px;
+}
+
+.confirmation + .delivery-pay-text {
+	width: 213px;
+}
+
+.payment + .delivery-pay-text {
+	width: 232px;
+}
+
+.delivery + .delivery-pay-text {
+	width: 220px;
+}
+
+.order::before {
+	content: "";
+	display: flex;
+	width: 150px;
+	height: 150px;
+	background-image: url(/EcoMilk/images/icons/coding.svg);
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.confirmation::before {
+	content: "";
+	display: flex;
+	width: 150px;
+	height: 150px;
+	background-image: url(/EcoMilk/images/icons/support.svg);
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.payment::before {
+	content: "";
+	display: flex;
+	width: 150px;
+	height: 150px;
+	background-image: url(/EcoMilk/images/icons/credit-card.svg);
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.delivery::before {
+	content: "";
+	display: flex;
+	width: 150px;
+	height: 150px;
+	background-image: url(/EcoMilk/images/icons/box.svg);
+	margin: auto;
+	margin-left: 99px;
+	margin-bottom: 15px;
+}
+
+.subscription {
+	margin-bottom: 50px;
+}
+
+.subscription-item {
+	height: 474px;
+	width: 280px;
+	border-radius: 7px;
+	background-color: #F9F9F9;
+	margin-bottom: 20px;
+}
+
+.subscription-item-header {
+	background-color: #01BC68;
+	border-radius: 7px 7px 0 0;
+	height: 160px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.subscription-item-heading {
+	color: #F3F3F3;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.subscription-item-price {
+	color: #F3F3F3;
+	font-size: 4.8rem;
+	font-weight: 500;
+	text-align: center;
+}
+
+.ruble {
+	font-size: 2.4rem;
+}
+
+.subscription-item-text {
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.subscription .button {
+	width: 210px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.subscription .slider {
+	width: 39px;
+}
+
+.couple, .family, .personal {
+	display: none;
+}
+
+.questions {
+	font-size: 1.8rem;
+	font-weight: 400;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.questions-item {
+	border-bottom: 1px solid #082E48;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.questions-item:first-child {
+	border-top: 1px solid #082E48;
+}
+
+.questions-text {
+	width: 230px;
+}
+
+.questions-item:after {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-image: url(/EcoMilk/images/icons/down-arrow.svg);
+}
+
+.back-call-title {
+	margin-bottom: 15px;
+}
+
+.back-call-text {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.back-call-form {
+	font-size: 1.5rem;
+	font-weight: 500;
+	margin-bottom: 60px;
+	width: 100%;
+}
+
+.back-call-field {
+	display: flex;
+	flex-direction: column;
+}
+
+.back-call-field label {
+	margin-bottom: 7px;
+}
+
+.back-call-field input {
+	height: 35px;
+	background-color: #F3F3F5;
+	border: none;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+.back-call .button {
+	width: 170px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.footer {
+	background-color: #082E48;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.subscription-form-text {
+	font-size: 2rem;
+	line-height: 130%;
+	color: #f3f3f3;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.email {
+	height: 35px;
+	width: 280px;
+	padding-left: 20px;
+	color: #A9B6C3;
+	font-size: 1.4rem;
+	background-color: #F3F3F5;
+	border: none;
+	border-radius: 15px;
+	margin-bottom: 15px;
+}
+
+.email:placeholder {
+	color: #A9B6C3;
+	font-size: 1.4rem;
+}
+
+.social {
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-item {
+	height: 25px;
+	width: 25px;
+	display: flex;
+}
+
+.vk:after {
+	content: "";
+	height: 25px;
+	width: 25px;
+	background-image: url(/Users/taliko/Desktop/EcoMilk/images/icons/009-vk.svg);
+}
+
+.twitter:after {
+	content: "";
+	height: 25px;
+	width: 25px;
+	background-image: url(/EcoMilk/images/icons/013-twitter-1.svg);
+}
+
+.instagram:after {
+	content: "";
+	height: 25px;
+	width: 25px;
+	background-image: url(/EcoMilk/images/icons/034-instagram.svg);
+}
+
+.facebook:after {
+	content: "";
+	height: 25px;
+	width: 25px;
+	background-image: url(/EcoMilk/images/icons/045-facebook.svg);
+}
+
+.footer-menu {
+	display: flex;
+    	flex-direction: column;
+	color: #f3f3f3;
+	font-size: 1.4rem;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.footer-menu-item {
+	margin-bottom: 10px;
+}
+
+.footer-menu-item:last-child {
+	margin-bottom: 0;
+}
+
+.rights {
+	color: #f3f3f3;
+	font-size: 1.4rem;
+	margin: auto;
 }
