@@ -17,7 +17,7 @@
     background-position: center;
     width: 138px;
     height: 42px;
-    background-image: url(/Users/taliko/Desktop/EcoMilk/images/logo.svg);
+    background-image: url(/EcoMilk/images/logo.svg);
     background-size: contain;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .cta {
-	background-image: url(/Users/taliko/Desktop/EcoMilk/images/milk-768px.jpg);
+	background-image: url(/EcoMilk/images/milk-768px.jpg);
 	padding-top: 223px;
 	padding-bottom: 223px;
 	padding-left: 54px;
@@ -467,51 +467,3 @@ h4 {
 }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
