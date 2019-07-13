@@ -46,7 +46,7 @@ html {
 }
 
 .cta {
-	background-image: url(/EcoMilk/images/milk-320px.jpg);
+	background-image: url(/Users/taliko/Desktop/EcoMilk/images/milk-320px.jpg);
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,12 +214,17 @@ h4 {
 	text-align: center;
 }
 
+.advantages-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .advantages-item {
 	width: 130px;
 	margin-bottom: 38px;
 }
 
-.advantages-item:nth-child(even) {
+.advantages-item:nth-child(odd) {
 	margin-right: 20px;
 }
 
@@ -414,7 +419,7 @@ h4 {
 
 .subscription-list {
 	list-style-type: none;
-    	padding: 0;
+    padding: 0;
 }
 
 .subscription-list-item, .subscription-item-text {
@@ -593,8 +598,6 @@ h4 {
 }
 
 .footer-menu {
-	display: flex;
-    	flex-direction: column;
 	color: #f3f3f3;
 	font-size: 1.4rem;
 	text-align: center;
