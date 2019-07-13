@@ -9,7 +9,7 @@
 <body>
 	<header class="header">
 		<div class="content">
-			<img class="logo" src="images/logo.svg" alt="Логотип EcoMilk">
+			<a class="logo" href="#"></a>
 			<a href="#subscription" class="menu"><img src="images/icons/menu-2.svg"></a>
 		</div>
 	</header>
@@ -184,11 +184,13 @@
 						</p>
 					</div>
 					<div>
-						<p class="subscription-item-text">30 бутылок молока</p>
-						<p class="subscription-item-text">60 йогуртов</p>
-						<p class="subscription-item-text">15 упаковок сливок</p>
-						<p class="subscription-item-text">30 десертов</p>
-						<p class="subscription-item-text">Доставка через день</p>
+						<ul class="subscription-list">
+							<li class="subscription-list-item">30 бутылок молока</li>
+							<li class="subscription-list-item">60 йогуртов</li>
+							<li class="subscription-list-item">15 упаковок сливок</li>
+							<li class="subscription-list-item">30 десертов</li>
+							<li class="subscription-list-item">Доставка через день</li>
+						</ul>
 
 						<a href="#" class="button">Купить</a>
 					</div>
@@ -201,12 +203,14 @@
 						</p>
 					</div>
 					<div>
-						<p class="subscription-item-text">60 бутылок молока</p>
-						<p class="subscription-item-text">120 йогуртов</p>
-						<p class="subscription-item-text">45 упаковок сливок</p>
-						<p class="subscription-item-text">80 десертов</p>
-						<p class="subscription-item-text">Доставка через день</p>
-
+						<ul class="subscription-list">
+							<li class="subscription-list-item">60 бутылок молока</li>
+							<li class="subscription-list-item">120 йогуртов</li>
+							<li class="subscription-list-item">45 упаковок сливок</li>
+							<li class="subscription-list-item">80 десертов</li>
+							<li class="subscription-list-item">Доставка через день</li>
+						</ul>
+						
 						<a href="#" class="button">Купить</a>
 					</div>
 				</div>
@@ -218,12 +222,14 @@
 						</p>
 					</div>
 					<div>
-						<p class="subscription-item-text">125 бутылок молока</p>
-						<p class="subscription-item-text">210 йогуртов</p>
-						<p class="subscription-item-text">85 упаковок сливок</p>
-						<p class="subscription-item-text">110 десертов</p>
-						<p class="subscription-item-text">Доставка каждый день</p>
-
+						<ul class="subscription-list">
+							<li class="subscription-list-item">125 бутылок молока</li>
+							<li class="subscription-list-item">210 йогуртов</li>
+							<li class="subscription-list-item">85 упаковок сливок</li>
+							<li class="subscription-list-item">110 десертов</li>
+							<li class="subscription-list-item">Доставка каждый день</li>
+						</ul>
+						
 						<a href="#" class="button">Купить</a>
 					</div>
 				</div>
@@ -296,7 +302,7 @@
 				      <input type="text">
 				    </div>
 
-				    <a href="#" class="button">Отправить</a>
+				    <button type="submit" class="button">Отправить</button>
   				</div>
 
 			</div>
@@ -306,11 +312,11 @@
 	<footer class="footer">
 		<div class="content">
 			
-			<div class="subscription-form">
+			<form class="subscription-form">
 				<p class="subscription-form-text">Подпишитесь на рассылку, чтобы получать наши новости о скидках</p>
-				<input class="email" type="text" placeholder="Введите электронную почту">
+				<input class="email" type="email" placeholder="Введите электронную почту">
 				<a href="#" class="button">Подписаться</a>
-			</div>
+			</form>
 
 			<div class="social">
 				<a href="#" class="social-item vk"></a>
@@ -319,14 +325,14 @@
 				<a href="#" class="social-item facebook"></a>
 			</div>
 
-			<div class="footer-menu">
-				<a class="footer-menu-item">Личный кабинет</a>
-				<a class="footer-menu-item">Продукция</a>
-				<a class="footer-menu-item">О нас</a>
-				<a class="footer-menu-item">Производство</a>
-				<a class="footer-menu-item">Оплата и доставка</a>
-				<a class="footer-menu-item">Контакты</a>
-			</div>
+			<ul class="footer-menu">
+				<li class="footer-menu-item">Личный кабинет</li>
+				<li class="footer-menu-item">Продукция</li>
+				<li class="footer-menu-item">О нас</li>
+				<li class="footer-menu-item">Производство</li>
+				<li class="footer-menu-item">Оплата и доставка</li>
+				<li class="footer-menu-item">Контакты</li>
+			</ul>
 
 			<p class="rights">©2019 Copyright. All Rights Reserved.</p>
 
