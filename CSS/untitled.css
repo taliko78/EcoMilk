@@ -36,6 +36,8 @@ html {
 .logo {
 	width: 90px;
 	height: 18px;
+	background-image: url(/EcoMilk/images/logo.svg);
+	background-size: cover;
 }
 
 .menu {
@@ -283,7 +285,7 @@ h4 {
 }
 
 .delivery-pay {
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 }
 
 .delivery-pay-item {
@@ -293,6 +295,10 @@ h4 {
 	border-radius: 7px;
 	margin-bottom: 25px;
 	padding-top: 35px;
+}
+
+.delivery-pay-item:last-child {
+	margin-bottom: 0;
 }
 
 .delivery-pay-heading {
@@ -406,7 +412,12 @@ h4 {
 	font-size: 2.4rem;
 }
 
-.subscription-item-text {
+.subscription-list {
+	list-style-type: none;
+    	padding: 0;
+}
+
+.subscription-list-item, .subscription-item-text {
 	font-size: 2rem;
 	font-weight: 400;
 	text-align: center;
@@ -458,6 +469,10 @@ h4 {
 	background-image: url(/EcoMilk/images/icons/down-arrow.svg);
 }
 
+.back-call {
+	margin-bottom: 60px;
+}
+
 .back-call-title {
 	margin-bottom: 15px;
 }
@@ -471,7 +486,6 @@ h4 {
 .back-call-form {
 	font-size: 1.5rem;
 	font-weight: 500;
-	margin-bottom: 60px;
 	width: 100%;
 }
 
@@ -490,12 +504,15 @@ h4 {
 	border: none;
 	border-radius: 15px;
 	margin-bottom: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .back-call .button {
 	width: 170px;
 	margin: auto;
 	margin-top: 25px;
+	border: none;
 }
 
 .footer {
@@ -551,7 +568,7 @@ h4 {
 	content: "";
 	height: 25px;
 	width: 25px;
-	background-image: url(/Users/taliko/Desktop/EcoMilk/images/icons/009-vk.svg);
+	background-image: url(/EcoMilk/images/icons/009-vk.svg);
 }
 
 .twitter:after {
@@ -583,6 +600,8 @@ h4 {
 	text-align: center;
 	margin: auto;
 	margin-bottom: 20px;
+	list-style-type: none;
+	padding: 0;
 }
 
 .footer-menu-item {
