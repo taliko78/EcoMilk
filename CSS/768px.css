@@ -1,0 +1,517 @@
+@media (min-width: 641px) and (max-width: 960px) {
+
+.content {
+	width: auto;
+	max-width: 660px;
+	margin: auto;
+}
+
+.header {
+	height: 100px;
+	padding-left: 54px;
+	padding-right: 54px;
+}
+
+.logo {
+	background-repeat: no-repeat;
+    background-position: center;
+    width: 138px;
+    height: 42px;
+    background-image: url(/Users/taliko/Desktop/EcoMilk/images/logo.svg);
+    background-size: contain;
+}
+
+.menu {
+	width: 34px;
+	height: 34px;
+}
+
+.cta {
+	background-image: url(/Users/taliko/Desktop/EcoMilk/images/milk-768px.jpg);
+	padding-top: 223px;
+	padding-bottom: 223px;
+	padding-left: 54px;
+	padding-right: 54px;
+}
+
+.title {
+	font-size: 6rem;
+	margin-bottom: 35px;
+}
+
+.cta-text {
+	font-size: 2.4rem;
+	width: 530px;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.button {
+	font-size: 1.8rem;
+	font-weight: 500;
+	background-color: #01BC68;
+	width: 320px;
+	height: 45px;
+}
+
+.products {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	padding-left: 54px;
+	padding-right: 54px;
+}
+
+h2 {
+	font-size: 4.8rem;
+	margin-bottom: 50px;
+	width: 100%;
+}
+
+.products .products-item {
+	width: 22.7%;
+	margin-bottom: 30px;
+	margin-right: 3%;
+}
+
+.products-item:nth-child(5n) {
+	margin-right: 0px;
+}
+
+.product-photo {
+	width: 150px;
+	height: 150px;
+}
+
+.product-name {
+	font-size: 1.8rem;
+}
+
+.product-price {
+	font-size: 1.8rem;
+}
+
+.products .button {
+	width: 320px;
+}
+
+.facts {
+	margin-bottom: 70px;
+	padding-left: 54px;
+	padding-right: 54px;
+}
+
+.facts .content {
+	flex-direction: column;
+}
+
+.facts-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.fact-photo {
+	width: 48.3%;
+	height: auto;
+	margin-bottom: 0;
+}
+
+.fact-description {
+	margin-left: 20px;
+	width: 50%;
+}
+
+h3 {
+	font-size: 2.4rem;
+}
+
+.fact-heading {
+	margin-bottom: 15px;
+}
+
+.fact-text {
+	font-size: 1.6rem;
+	line-height: 140%;
+	margin-bottom: 0;
+}
+
+.non-dairy .fact-text {
+	width: 300px;
+}
+
+.gmo .fact-text {
+	width: 320px;
+}
+
+.ecology .fact-text {
+	width: 282px;
+}
+
+.slider {
+	display: none;
+}
+
+.advantages {
+	margin-bottom: 35px;
+	padding-left: 54px;
+	padding-right: 54px;
+}
+
+.advantages-title {
+	margin-bottom: 60px;
+}
+
+h4 {
+	font-size: 1.8rem;
+}
+
+.advantages-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.advantages-item {
+	width: 26%;
+	margin-bottom: 45px;
+}
+
+.advantages .advantages-item {
+	margin-right: 0;
+}
+
+.gifts::before {
+	margin-left: 60px;
+}
+
+.delivery-pay {
+	margin-bottom: 70px;
+	position: relative;
+	padding-right: 54px;
+	padding-left: 54px;
+	overflow: hidden;
+}
+
+.delivery-pay-item {
+	height: 390px;
+	width: 46%;
+	margin-bottom: 0px;
+	margin-right: 0;
+	padding-top: 50px;
+}
+
+.delivery-pay-item:first-of-type {
+	margin-right: 5%;
+}
+
+.delivery-pay-item:last-child {
+	display: none;
+}
+
+.delivery-pay-item:nth-child(4) {
+	position: absolute;
+	right: -40%;
+    top: 107px;
+}
+
+.delivery-pay-heading {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.delivery-pay-text {
+	font-size: 1.6rem;
+}
+
+.order + .delivery-pay-text {
+	width: 261px;
+}
+
+.confirmation + .delivery-pay-text {
+	width: 217px;
+}
+
+.payment + .delivery-pay-text {
+	width: 232px;
+}
+
+.delivery + .delivery-pay-text {
+	width: 220px;
+}
+
+.order::before {
+	margin-bottom: 30px;
+}
+
+.confirmation::before {
+	margin-bottom: 30px;
+}
+
+.subscription {
+	margin-bottom: 70px;
+	position: relative;
+	overflow: hidden;
+}
+
+.subscription-item {
+	height: 540px;
+	width: 320px;
+	margin: auto;
+	margin-bottom: 0;
+}
+
+.subscription-item-header {
+	height: 180px;
+	margin-bottom: 30px;
+}
+
+.subscription-item-heading {
+	margin-bottom: 6px;
+}
+
+.subscription-item-price {
+	font-size: 5.2rem;
+}
+
+.subscription-list-item, .subscription-item-text {
+	font-size: 2.4rem;
+	margin-bottom: 13px;
+}
+
+.subscription .button {
+	width: 220px;
+}
+
+.subscription .slider {
+	display: none;
+}
+
+.couple {
+	display: block;
+	position: absolute;
+	opacity: 0.8;
+	height: 474px;
+	width: 280px;
+
+	top: 140px;
+    right: -14%;
+}
+
+.couple .subscription-item-header {
+	height: 160px;
+	margin-bottom: 30px;
+}
+
+.couple .subscription-list-item {
+	font-size: 2rem;
+	margin-bottom: 10px;
+}
+
+.couple .button {
+	width: 210px;
+	height: 35px;
+	font-size: 1.4rem;
+}
+
+.faq {
+	padding-right: 54px;
+	padding-left: 54px;
+}
+
+.questions {
+	font-size: 2.4rem;
+	margin-bottom: 80px;
+}
+
+.questions-item {
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+.questions-text {
+	width: 540px;
+}
+
+.questions-item:after {
+	width: 26px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.back-call {
+	margin-bottom: 100px;
+}
+
+.back-call-title {
+	margin-bottom: 30px;
+}
+
+.back-call-text {
+	max-width: 562px;
+	font-size: 2.4rem;
+	margin: auto;
+	margin-bottom: 60px;
+}
+
+.back-call-form {
+	font-size: 2rem;
+	max-width: 490px;
+	margin: auto;
+}
+
+.back-call-field label {
+	margin-bottom: 10px;
+}
+
+.back-call-field input {
+	height: 45px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.back-call .button {
+	width: 320px;
+	margin-top: 30px;
+}
+
+.footer {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer .content {
+	flex-direction: column;
+}
+
+.subscription-form {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.subscription-form-text {
+	font-size: 2.4rem;
+	margin: auto;
+	margin-bottom: 30px;
+	max-width: 531px;
+}
+
+.email {
+	height: 45px;
+	width: 490px;
+	font-size: 1.8rem;
+	border-radius: 25px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.email:placeholder {
+	font-size: 1.8rem;
+}
+
+.footer .button {
+	width: 490px;
+}
+
+.social {
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 321px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-item {
+	height: 35px;
+	width: 35px;
+	display: flex;
+}
+
+.vk:after {
+	height: 35px;
+	width: 35px;
+}
+
+.twitter:after {
+	height: 35px;
+	width: 35px;
+}
+
+.instagram:after {
+	height: 35px;
+	width: 35px;
+}
+
+.facebook:after {
+	height: 35px;
+	width: 35px;
+}
+
+.footer-menu {
+	font-size: 1.8rem;
+	margin-bottom: 50px;
+}
+
+.footer-menu-item {
+	margin-bottom: 15px;
+}
+
+.footer-menu-item:last-child {
+	margin-bottom: 0;
+}
+
+.rights {
+	font-size: 1.8rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
