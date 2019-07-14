@@ -33,6 +33,10 @@ html {
 	align-items: center;
 }
 
+.header-menu, .number {
+	display: none;
+}
+
 .logo {
 	width: 90px;
 	height: 18px;
@@ -103,12 +107,18 @@ h2 {
 	margin-bottom: 30px;
 }
 
+.products-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .products-item {
 	width: 130px;
 	margin-bottom: 20px;
 }
 
-.products-item:nth-child(even) {
+.products-item:nth-child(odd) {
 	margin-right: 20px;
 }
 
@@ -605,6 +615,11 @@ h4 {
 	margin-bottom: 20px;
 	list-style-type: none;
 	padding: 0;
+}
+
+.footer-menu a {
+	text-decoration: none;
+	color: #f3f3f3;
 }
 
 .footer-menu-item {
