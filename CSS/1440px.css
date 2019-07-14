@@ -1,0 +1,609 @@
+@media (min-width: 961px) {
+
+.content {
+	width: auto;
+	max-width: 1230px;
+	margin: auto;
+}
+
+.header {
+	height: 100px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.logo {
+	width: 134px;
+    height: 27px;
+}
+
+.menu {
+	display: none;
+}
+
+.header-menu {
+	display: flex;
+	list-style-type: none;
+	font-size: 1.6rem;
+	font-weight: 500;
+	padding: 0;
+}
+
+.header-menu-item {
+	margin-right: 40px;
+}
+
+.header-menu-item a {
+	text-decoration: none;
+	color: #082E48;
+}
+
+.header-menu-item:last-child {
+	margin-right: 0;
+}
+
+.number {
+	display: flex;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+
+.cta {
+	background-image: url(/Users/taliko/Desktop/EcoMilk/images/milk-1440px.jpg);
+	padding-top: 150px;
+	padding-bottom: 150px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.cta .content {
+	flex-direction: column;
+}
+
+.title {
+	font-size: 5.2rem;
+	margin-bottom: 30px;
+	max-width: 547px;
+	text-align: left;
+}
+
+.cta-text {
+	font-size: 1.8rem;
+	max-width: 390px;
+	text-align: left;
+	margin-right: auto;
+}
+
+.button {
+	font-size: 1.6rem;
+	width: 285px;
+	height: 40px;
+}
+
+.cta .button {
+	margin-left: 0;
+}
+
+.products {
+	margin-top: 150px;
+	margin-bottom: 150px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.products .content {
+	flex-direction: column;
+}
+
+h2 {
+	margin-bottom: 100px;
+	font-size: 4.8rem;
+	width: 100%;
+}
+
+.products .products-item {
+	width: 23%;
+	margin-right: 2%;
+	margin-bottom: 0;
+}
+
+.products-item:nth-child(4n) {
+	margin-right: 0px;
+}
+
+.product-photo {
+	width: 285px;
+	height: 285px;
+}
+
+.product-name {
+	font-size: 2.2rem;
+	margin-top: 20px;
+	width: 180px;
+}
+
+.product-price {
+	font-size: 2.2rem;
+	margin-top: 3px;
+}
+
+.products .button {
+	width: 285px;
+	margin-top: 80px;
+}
+
+.facts {
+	margin-bottom: 150px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.facts .content {
+	flex-direction: row;
+}
+
+.facts-items {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.facts-item {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0;
+}
+
+.fact-photo {
+	width: 285px;
+	height: 285px;
+	margin-bottom: 30px;
+}
+
+.fact-description {
+	margin-left: 0;
+	width: auto;
+}
+
+h3 {
+	font-size: 2.4rem;
+}
+
+.fact-heading {
+	margin-bottom: 10px;
+	width: 255px;
+}
+
+.fact-text {
+	font-size: 1.6rem;
+	line-height: 140%;
+	margin-bottom: 0;
+}
+
+.non-dairy .fact-text {
+	width: 390px;
+}
+
+.gmo .fact-text {
+	width: 329px;
+}
+
+.ecology .fact-text {
+	width: 285px;
+}
+
+.slider {
+	display: none;
+}
+
+.advantages {
+	margin-bottom: 75px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.advantages-title {
+	margin-bottom: 100px;
+}
+
+h4 {
+	font-size: 2.2rem;
+}
+
+.advantages-group {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: auto;
+}
+
+.advantages-item {
+	width: 32%;
+	margin-bottom: 75px;
+}
+
+.advantages .advantages-item {
+	margin-right: 0;
+}
+
+.exclusive::before {
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.priority::before {
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.bonuses::before {
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.benefit::before {
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.gifts::before {
+	margin-left: 165px;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.easy-payment::before {
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.delivery-pay {
+	margin-bottom: 130px;
+	padding-right: 105px;
+	padding-left: 105px;
+}
+
+.delivery-pay-item {
+	height: 400px;
+	min-width: 265px;
+	width: 23%;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	padding-top: 50px;
+}
+
+.delivery-pay-item:last-child {
+	margin-right: 0;
+}
+
+.delivery-pay-heading {
+	margin-bottom: 5px;
+}
+
+.delivery-pay-text {
+	font-size: 1.6rem;
+}
+
+.order + .delivery-pay-text {
+	width: 261px;
+}
+
+.confirmation + .delivery-pay-text {
+	width: 217px;
+}
+
+.payment + .delivery-pay-text {
+	width: 220px;
+}
+
+.delivery + .delivery-pay-text {
+	width: 220px;
+}
+
+.order::before {
+	margin-bottom: 30px;
+}
+
+.confirmation::before {
+	margin-bottom: 30px;
+}
+
+.subscription {
+	margin-bottom: 130px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.couple, .family, .personal {
+	display: block;
+}
+
+.subscription-item {
+	height: 542px;
+	width: 285px;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 65px;
+}
+
+.personal {
+	margin-right: 0;
+}
+
+.subscription-item-header {
+	height: 184px;
+	margin-bottom: 35px;
+}
+
+.subscription-item-heading {
+	margin-bottom: 6px;
+}
+
+.subscription-item-price {
+	font-size: 5.2rem;
+}
+
+.subscription-list-item {
+	font-size: 1.8rem;
+	margin-bottom: 20px;
+}
+
+.subscription-item-text {
+	font-size: 1.8rem;
+	line-height: 140%;
+}
+
+.subscription .button {
+	width: 220px;
+}
+
+.subscription .personal .button {
+	margin-top: 90px;
+}
+
+.subscription .slider {
+	display: none;
+}
+
+.faq {
+	padding-left: 105px;
+	padding-right: 105px;
+	margin-bottom: 180px;
+}
+
+.questions {
+	width: 49%;
+	font-size: 2.2rem;
+	margin-bottom: 0;
+	margin-top: 63px;
+	margin-right: 135px;
+}
+
+.questions-item {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.questions-text {
+	width: auto;
+	max-width: 492px;
+}
+
+.questions-item:after {
+	width: 26px;
+	height: 26px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.back-call {
+	margin-bottom: 0;
+	max-width: 480px;
+}
+
+.back-call-title {
+	margin-bottom: 30px;
+}
+
+.back-call-text {
+	max-width: 390px;
+	font-size: 1.8rem;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.back-call-form {
+	font-size: 1.8rem;
+	max-width: 390px;
+	margin: auto;
+}
+
+.back-call-field label {
+	margin-bottom: 10px;
+}
+
+.back-call-field input {
+	height: 40px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+.back-call .button {
+	width: 202px;
+	margin-top: 20px;
+}
+
+.footer {
+	padding-top: 55px;
+	padding-bottom: 30px;
+	padding-left: 105px;
+	padding-right: 105px;
+}
+
+.footer .content {
+	flex-direction: row;
+}
+
+.subscription-form {
+	order: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.subscription-form-text {
+	font-size: 1.8rem;
+	margin: auto;
+	margin-bottom: 40px;
+	max-width: 390px;
+}
+
+.email {
+	height: 40px;
+	width: 100%;
+	font-size: 1.5rem;
+	border-radius: 25px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+.email:placeholder {
+	font-size: 1.5rem;
+}
+
+.footer .button {
+	width: 100%;
+}
+
+.social {
+	order: -1;
+	margin-right: 550px;
+	margin-top: 85px;
+	margin-bottom: 0;
+	width: 290px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social-item {
+	height: 35px;
+	width: 35px;
+	display: flex;
+}
+
+.vk:after {
+	height: 35px;
+	width: 35px;
+}
+
+.twitter:after {
+	height: 35px;
+	width: 35px;
+}
+
+.instagram:after {
+	height: 35px;
+	width: 35px;
+}
+
+.facebook:after {
+	height: 35px;
+	width: 35px;
+}
+
+.footer-menu {
+	order: 2;
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: auto;
+	margin-top: auto;
+	display: flex;
+}
+
+.footer-menu-item {
+	margin-right: 49px;
+	margin-bottom: 0;
+}
+
+.footer-menu-item:last-child {
+	margin-right: 0;
+}
+
+.rights {
+	order: 1;
+	font-size: 1.4rem;
+	margin-top: 131px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
