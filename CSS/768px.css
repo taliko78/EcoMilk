@@ -67,13 +67,18 @@ h2 {
 	width: 100%;
 }
 
+.products-items {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .products .products-item {
 	width: 22.7%;
 	margin-bottom: 30px;
 	margin-right: 3%;
 }
 
-.products-item:nth-child(5n) {
+.products-item:nth-child(4n) {
 	margin-right: 0px;
 }
 
