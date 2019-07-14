@@ -6,11 +6,22 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" type="text/css" href="/EcoMilk/CSS/untitled.css">
   	<link rel="stylesheet" type="text/css" href="/EcoMilk/CSS/768px.css">
+  	<link rel="stylesheet" type="text/css" href="/EcoMilk/CSS/1440px.css">
+  	<link rel="stylesheet" type="text/css" href="/EcoMilk/CSS/1920+px.css">
 </head>
 <body>
 	<header class="header">
 		<div class="content">
 			<a class="logo" href="#"></a>
+			<ul class="header-menu">
+				<li class="header-menu-item"><a href="#">Продукция</a></li>
+				<li class="header-menu-item"><a href="#">О нас</a></li>
+				<li class="header-menu-item"><a href="#">Производство</a></li>
+				<li class="header-menu-item"><a href="#">Оплата и доставка</a></li>
+				<li class="header-menu-item"><a href="#">Контакты</a></li>
+				<li class="header-menu-item"><a href="#">Личный кабинет</a></li>
+			</ul>
+			<div class="number">8 (800) 555-75-35</div>
 			<a href="#" class="menu"><img src="images/icons/menu-2.svg"></a>
 		</div>
 	</header>
@@ -28,50 +39,52 @@
 
 				<h2 class="products-title">Наши продукты</h2>
 
-				<div class="products-item">
-					<div class="product-photo">
-						<img src="images/oat-milk.jpg" alt="Овсяное молоко">
+				<div class="products-items">
+					<div class="products-item">
+						<div class="product-photo">
+							<img src="images/oat-milk.jpg" alt="Овсяное молоко">
+						</div>
+						<p class="product-name">
+							Молоко овсяное, 
+							<span class="product-name-details">3.2%, 0,5 л</span>
+						</p>
+						<p class="product-price">60₽</p>
 					</div>
-					<p class="product-name">
-						Молоко овсяное, 
-						<span class="product-name-details">3.2%, 0,5 л</span>
-					</p>
-					<p class="product-price">60₽</p>
-				</div>
 
-				<div class="products-item">
-					<div class="product-photo">
-						<img src="images/rice-milk.jpg" alt="Рисовое молоко">
+					<div class="products-item">
+						<div class="product-photo">
+							<img src="images/rice-milk.jpg" alt="Рисовое молоко">
+						</div>
+						<p class="product-name">
+							Молоко рисовое, 
+							<span class="product-name-details">1.5%, 0,5 л</span>
+						</p>
+						<p class="product-price">70₽</p>
 					</div>
-					<p class="product-name">
-						Молоко рисовое, 
-						<span class="product-name-details">1.5%, 0,5 л</span>
-					</p>
-					<p class="product-price">70₽</p>
-				</div>
 
-				<div class="products-item">
-					<div class="product-photo">
-						<img src="images/puding.jpg" alt="Соевый пудинг">
+					<div class="products-item">
+						<div class="product-photo">
+							<img src="images/puding.jpg" alt="Соевый пудинг">
+						</div>
+						<p class="product-name">
+							Соевый пудинг, 
+							<span class="product-name-details">шоколад, 125 мл</span>
+						</p>
+						<p class="product-price">48₽</p>
 					</div>
-					<p class="product-name">
-						Соевый пудинг, 
-						<span class="product-name-details">шоколад, 125 мл</span>
-					</p>
-					<p class="product-price">48₽</p>
-				</div>
 
-				<div class="products-item">
-					<div class="product-photo">
-						<img src="images/cream.jpg" alt="Сливки овсяные">
+					<div class="products-item">
+						<div class="product-photo">
+							<img src="images/cream.jpg" alt="Сливки овсяные">
+						</div>
+						<p class="product-name">
+							Сливки овсяные, 
+							<span class="product-name-details">20%, 250 мл</span>
+						</p>
+						<p class="product-price">40₽</p>
 					</div>
-					<p class="product-name">
-						Сливки овсяные, 
-						<span class="product-name-details">20%, 250 мл</span>
-					</p>
-					<p class="product-price">40₽</p>
 				</div>
-
+				
 				<a href="#" class="button">Посмотреть все</a>
 
 			</div>
@@ -82,40 +95,46 @@
 
 				<h2 class="facts-title">Несколько фактов о нашей продукции</h2>
 
-				<div class="facts-item non-dairy">
-					<div class="fact-photo">
-						<img src="images/field.jpg" alt="Поле">
-					</div>
-					<div class="fact-description">
-						<h3 class="fact-heading">100% растительное происхождение</h3>
-						<p class="fact-text">
-							Продукты EcoMilk производятся на 100%-й растительной основе, поэтому они не содержат лактозу (молочный сахар) и прочие ингредиенты животного происхождения.
-						</p>
-					</div>
-				</div>
 
-				<div class="facts-item gmo">
-					<div class="fact-photo">
-						<img src="images/gmo.jpg" alt="Соя без гмо">
-					</div>
-					<div class="fact-description">
-						<h3 class="fact-heading">Никакого ГМО</h3>
-						<p class="fact-text">
-							Мы никогда не использовали и не будем использовать в своем производстве ГМО. Благодаря соответствующему соглашению с поставщиками, мы всегда можем отследить источники происхождения нашего сырья.
-						</p>
-					</div>
-				</div>
 
-				<div class="facts-item ecology">
-					<div class="fact-photo">
-						<img src="images/ecology.jpg" alt="Ветрянные мельницы">
+				<div class="facts-items">
+
+					<div class="facts-item non-dairy">
+						<div class="fact-photo">
+							<img src="images/field.jpg" alt="Поле">
+						</div>
+						<div class="fact-description">
+							<h3 class="fact-heading">100% растительное происхождение</h3>
+							<p class="fact-text">
+								Продукты EcoMilk производятся на 100%-й растительной основе, поэтому они не содержат лактозу (молочный сахар) и прочие ингредиенты животного происхождения.
+							</p>
+						</div>
 					</div>
-					<div class="fact-description">
-						<h3 class="fact-heading">Экологичная упаковка</h3>
-						<p class="fact-text">
-							Наши упаковки полностью подлежат вторичной переработке и безопасны для окружающей среды.
-						</p>
+					
+					<div class="facts-item gmo">
+						<div class="fact-photo">
+							<img src="images/gmo.jpg" alt="Соя без гмо">
+						</div>
+						<div class="fact-description">
+							<h3 class="fact-heading">Никакого ГМО</h3>
+							<p class="fact-text">
+								Мы никогда не использовали и не будем использовать в своем производстве ГМО. Благодаря соответствующему соглашению с поставщиками, мы всегда можем отследить источники происхождения нашего сырья.
+							</p>
+						</div>
 					</div>
+
+					<div class="facts-item ecology">
+						<div class="fact-photo">
+							<img src="images/ecology.jpg" alt="Ветрянные мельницы">
+						</div>
+						<div class="fact-description">
+							<h3 class="fact-heading">Экологичная упаковка</h3>
+							<p class="fact-text">
+								Наши упаковки полностью подлежат вторичной переработке и безопасны для окружающей среды.
+							</p>
+						</div>
+					</div>
+
 				</div>
 
 				<div class="slider">
@@ -293,30 +312,31 @@
 					</div>
 				</div>
 
+				<section class="back-call">
+					<div class="content">
+						
+						<h2 class="back-call-title">Нет нужного ответа?</h2>
+						<p class="back-call-text">Оставьте свой номер телефона, и мы перезвоним через минуту!</p>
+
+						<div class="back-call-form">
+						    <div class="back-call-field">
+						      <label>Имя</label>
+						      <input type="text">
+						    </div>
+						    <div class="back-call-field">
+							  <label>Номер телефона*</label>
+						      <input type="text">
+						    </div>
+
+						    <button type="submit" class="button">Отправить</button>
+		  				</div>
+
+					</div>
+				</section>
+
 			</div>
 		</section>
 
-		<section class="back-call">
-			<div class="content">
-				
-				<h2 class="back-call-title">Нет нужного ответа?</h2>
-				<p class="back-call-text">Оставьте свой номер телефона, и мы перезвоним через минуту!</p>
-
-				<div class="back-call-form">
-				    <div class="back-call-field">
-				      <label>Имя</label>
-				      <input type="text">
-				    </div>
-				    <div class="back-call-field">
-					  <label>Номер телефона*</label>
-				      <input type="text">
-				    </div>
-
-				    <button type="submit" class="button">Отправить</button>
-  				</div>
-
-			</div>
-		</section>
 	</main>
 
 	<footer class="footer">
@@ -336,12 +356,12 @@
 			</div>
 
 			<ul class="footer-menu">
-				<li class="footer-menu-item">Личный кабинет</li>
-				<li class="footer-menu-item">Продукция</li>
-				<li class="footer-menu-item">О нас</li>
-				<li class="footer-menu-item">Производство</li>
-				<li class="footer-menu-item">Оплата и доставка</li>
-				<li class="footer-menu-item">Контакты</li>
+				<li class="footer-menu-item"><a href="#">Личный кабинет</a></li>
+				<li class="footer-menu-item"><a href="#">Продукция</a></li>
+				<li class="footer-menu-item"><a href="#">О нас</a></li>
+				<li class="footer-menu-item"><a href="#">Производство</a></li>
+				<li class="footer-menu-item"><a href="#">Оплата и доставка</a></li>
+				<li class="footer-menu-item"><a href="#">Контакты</a></li>
 			</ul>
 
 			<p class="rights">©2019 Copyright. All Rights Reserved.</p>
