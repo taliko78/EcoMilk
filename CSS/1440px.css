@@ -8,8 +8,9 @@
 
 .header {
 	height: 100px;
-	padding-left: 105px;
-	padding-right: 105px;
+	margin: auto;
+    max-width: 1230px;
+    box-shadow: none;
 }
 
 .logo {
@@ -37,6 +38,10 @@
 	text-decoration: none;
 	color: #082E48;
 }
+	
+.header-menu-item a:hover, .footer-menu-item a:hover {
+	color: #01BC68;
+}
 
 .header-menu-item:last-child {
 	margin-right: 0;
@@ -46,6 +51,12 @@
 	display: flex;
 	font-size: 1.8rem;
 	font-weight: 700;
+	text-decoration: none;
+	color: #082E48;
+}
+
+.number:hover {
+	color: #01BC68;
 }
 
 .cta {
@@ -71,7 +82,6 @@
 	font-size: 1.8rem;
 	max-width: 390px;
 	text-align: left;
-	margin-right: auto;
 }
 
 .button {
@@ -85,7 +95,7 @@
 }
 
 .products {
-	margin-top: 150px;
+	padding-top: 150px;
 	margin-bottom: 150px;
 	padding-left: 105px;
 	padding-right: 105px;
@@ -95,7 +105,8 @@
 	flex-direction: column;
 }
 
-h2 {
+.products-title, .facts-title, .advantages-title, .delivery-pay-title, .subscription-title, 
+.faq-title, .back-call-title {
 	margin-bottom: 100px;
 	font-size: 4.8rem;
 	width: 100%;
@@ -112,8 +123,8 @@ h2 {
 }
 
 .product-photo {
-	width: 285px;
-	height: 285px;
+	width: 100%;
+    height: auto;
 }
 
 .product-name {
@@ -144,21 +155,22 @@ h2 {
 
 .facts-items {
 	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .facts-item {
 	display: flex;
-	flex-direction: column;
-	margin-bottom: 0;
+    flex-direction: column;
+    margin-bottom: 0;
+    width: 23%;
 }
 
 .fact-photo {
-	width: 285px;
-	height: 285px;
-	margin-bottom: 30px;
+	width: 100%;
+    height: auto;
+    margin-bottom: 30px;
 }
 
 .fact-description {
@@ -166,7 +178,7 @@ h2 {
 	width: auto;
 }
 
-h3 {
+.fact-heading, .delivery-pay-heading, .subscription-item-heading, .fact-heading {
 	font-size: 2.4rem;
 }
 
@@ -260,7 +272,7 @@ h4 {
 }
 
 .gifts::before {
-	margin-left: 165px;
+	margin-left: calc(50% - 25px);
 	margin-bottom: 20px;
 	width: 50px;
 	height: 50px;
@@ -390,17 +402,25 @@ h4 {
 	margin-bottom: 180px;
 }
 
+.faq .content {
+	justify-content: center;
+}
+
 .questions {
 	width: 49%;
 	font-size: 2.2rem;
 	margin-bottom: 0;
 	margin-top: 63px;
-	margin-right: 135px;
 }
 
 .questions-item {
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.questions-item:hover {
+	color: #01BC68;
+	cursor: pointer;
 }
 
 .questions-text {
@@ -417,7 +437,8 @@ h4 {
 
 .back-call {
 	margin-bottom: 0;
-	max-width: 480px;
+    max-width: 480px;
+    margin: auto;
 }
 
 .back-call-title {
@@ -465,15 +486,16 @@ h4 {
 
 .subscription-form {
 	order: 0;
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    max-width: 32%;
 }
 
 .subscription-form-text {
 	font-size: 1.8rem;
 	margin: auto;
 	margin-bottom: 40px;
-	max-width: 390px;
+	max-width: 100%;
 }
 
 .email {
@@ -495,12 +517,12 @@ h4 {
 
 .social {
 	order: -1;
-	margin-right: 550px;
-	margin-top: 85px;
-	margin-bottom: 0;
-	width: 290px;
-	display: flex;
-	justify-content: space-between;
+    margin-right: 45%;
+    margin-top: 85px;
+    margin-bottom: 0;
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .social-item {
