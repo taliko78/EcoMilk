@@ -21,7 +21,7 @@
 				<li class="header-menu-item"><a href="#">Контакты</a></li>
 				<li class="header-menu-item"><a href="#">Личный кабинет</a></li>
 			</ul>
-			<div class="number">8 (800) 555-75-35</div>
+			<a href="tel:" class="number">8 (800) 555-75-35</a>
 			<a href="#" class="menu"><img src="images/icons/menu-2.svg"></a>
 		</div>
 	</header>
@@ -318,18 +318,18 @@
 						<h2 class="back-call-title">Нет нужного ответа?</h2>
 						<p class="back-call-text">Оставьте свой номер телефона, и мы перезвоним через минуту!</p>
 
-						<div class="back-call-form">
+						<form class="back-call-form">
 						    <div class="back-call-field">
 						      <label>Имя</label>
 						      <input type="text">
 						    </div>
 						    <div class="back-call-field">
 							  <label>Номер телефона*</label>
-						      <input type="text">
+						      <input required type="text">
 						    </div>
 
 						    <button type="submit" class="button">Отправить</button>
-		  				</div>
+		  				</form>
 
 					</div>
 				</section>
@@ -344,7 +344,7 @@
 			
 			<form class="subscription-form">
 				<p class="subscription-form-text">Подпишитесь на рассылку, чтобы получать наши новости о скидках</p>
-				<input class="email" type="email" placeholder="Введите электронную почту">
+				<input required class="email" type="email" placeholder="Введите электронную почту">
 				<a href="#" class="button">Подписаться</a>
 			</form>
 
