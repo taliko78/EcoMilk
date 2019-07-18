@@ -1,5 +1,9 @@
 @media (min-width: 961px) {
 
+body {
+	min-width: 961px;
+}
+
 .content {
 	width: auto;
 	max-width: 1230px;
@@ -11,6 +15,7 @@
 	margin: auto;
     max-width: 1230px;
     box-shadow: none;
+    padding: 0 20px;
 }
 
 .logo {
