@@ -301,15 +301,16 @@ h4 {
 
 .delivery-pay-item {
 	height: 400px;
-	min-width: 265px;
-	width: 23%;
-	margin-bottom: 20px;
-	margin-right: 30px;
+	max-width: 40%;
+	flex-grow: 1;
+	flex-basis: 285px;
+	margin-right: 2%;
 	padding-top: 50px;
 }
 
 .delivery-pay-item:last-child {
 	margin-right: 0;
+    max-width: 360px;
 }
 
 .delivery-pay-heading {
@@ -356,14 +357,17 @@ h4 {
 
 .subscription-item {
 	height: 542px;
-	width: 285px;
+	flex-basis: 285px;
+    max-width: 385px;
 	margin-right: 30px;
 	margin-bottom: 20px;
 	padding-bottom: 65px;
+	flex-grow: 1;
 }
 
 .personal {
 	margin-right: 0;
+	max-width: 374px;
 }
 
 .subscription-item-header {
@@ -558,16 +562,16 @@ h4 {
 
 .footer-menu {
 	order: 2;
-	font-size: 1.6rem;
-	margin-bottom: 0;
-	margin-right: 0;
-	margin-left: auto;
-	margin-top: auto;
-	display: flex;
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 65%;
 }
 
 .footer-menu-item {
-	margin-right: 49px;
+	margin-right: 2%;
 	margin-bottom: 0;
 }
 
