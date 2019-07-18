@@ -302,6 +302,12 @@ h4 {
 	margin-bottom: 50px;
 }
 
+.delivery-pay-items {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
 .delivery-pay-item {
 	height: 340px;
 	width: 280px;
@@ -382,7 +388,7 @@ h4 {
 	height: 150px;
 	background-image: url(/EcoMilk/images/icons/box.svg);
 	margin: auto;
-	margin-left: 99px;
+	margin-left: calc(50% - 45px);
 	margin-bottom: 15px;
 }
 
@@ -546,7 +552,7 @@ h4 {
 .email {
 	height: 35px;
 	width: 280px;
-	padding-left: 20px;
+	padding: 0 20px;
 	color: #A9B6C3;
 	font-size: 1.4rem;
 	background-color: #F3F3F5;
@@ -562,6 +568,7 @@ h4 {
 
 .footer .button {
 	width: 280px;
+	border: none;
 }
 
 .social {
