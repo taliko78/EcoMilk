@@ -302,16 +302,14 @@ h4 {
 
 .delivery-pay-item {
 	height: 400px;
-	max-width: 40%;
 	flex-grow: 1;
-	flex-basis: 285px;
+	flex-basis: 23%;
 	margin-right: 2%;
 	padding-top: 50px;
 }
 
 .delivery-pay-item:last-child {
-	margin-right: 0;
-    max-width: 360px;
+
 }
 
 .delivery-pay-heading {
